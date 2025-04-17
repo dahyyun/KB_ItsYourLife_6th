@@ -13,10 +13,10 @@ public class Computer {
     }
     /*
     int sum (int a, int b, int c) {
-        return a+ b+ c;
+        return a + b + c;
     }
 
     int sum (int a, int b, int c, int d, int e) {
-        return a+ b+ c + d + e;
+        return a + b + c + d + e;
     }*/
 }
