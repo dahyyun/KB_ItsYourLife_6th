@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/ch03-SQL기본/advanced/01_sqldb.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ch03-SQL기본/advanced/02_world.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ch03-SQL기본/advanced/03_employees.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ch04-SQL심화/basic/01_sqldb.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ch05-테이블,뷰,테이블스페이스/advanced/table/01_tabledb.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ch05-테이블,뷰,테이블스페이스/advanced/table/02_usertbl.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ch05-테이블,뷰,테이블스페이스/advanced/table/03_usertbl.sql" dialect="MySQL" />
