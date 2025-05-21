@@ -26,6 +26,11 @@ from usertbl u
 order by u.userID;
 
 # sqldb의 사용자를 모두 조회하되 전화가 없는 사람은 제외하고 출력하세요.
-
+select name, concat(mobile1, mobile2) as '전화번호'
+from usertbl
+where mobile1 is not null and mobile2 is not null;
 
 # sqldb의 사용자를 모두 조회하되 전화가 없는 사람만 출력하세요.
+select name, concat(mobile1, mobile2) as '전화번호'
+from usertbl
+where mobile1 is null or mobile2 is null;
