@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <!-- Appender, Layout 설정 -->
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern=" %-5level %c(%M:%L) - %m%n"/>
+        </Console>
+    </Appenders>
+    <!-- Logger 설정 -->
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="console"/>
+        </Root>
+        <!-- HandlerMapping의 등록 정보를 보려면 level을 INFO -> DEBUG로 올려야함. -->
+        <!-- HandlerMapping 정보 출력 -->
+        <Logger name="org.springframework.web.servlet.handler" level="DEBUG" additivity="false" >
+            <AppenderRef ref="console"/>
+        </Logger>
+        <!-- 기존 로그 설정 -->
+        <Logger name="org.scoula" level="INFO" additivity="false" >
+            <AppenderRef ref="console"/>
+        </Logger>
+        <Logger name="org.springframework" level="INFO" additivity="false">
+            <AppenderRef ref="console"/>
+        </Logger>
+    </Loggers>
+</Configuration>
