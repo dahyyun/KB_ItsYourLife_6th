@@ -11,11 +11,14 @@
         <Root level="INFO">
             <AppenderRef ref="console"/>
         </Root>
-        <!-- HandlerMapping의 등록 정보를 보려면 level을 INFO -> DEBUG로 올려야함. -->
+
+        <!-- log4j2.xxml을 수정하여 HandlerMapping의 등록 정보를 확인하세요. -->
+        <!-- level : INFO -> DEBUG -->
         <!-- HandlerMapping 정보 출력 -->
         <Logger name="org.springframework.web.servlet.handler" level="DEBUG" additivity="false" >
             <AppenderRef ref="console"/>
         </Logger>
+
         <!-- 기존 로그 설정 -->
         <Logger name="org.scoula" level="INFO" additivity="false" >
             <AppenderRef ref="console"/>
